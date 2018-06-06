@@ -26,6 +26,7 @@ class FseventsToVmRunner
   end
 
   def run
+    $LOAD_PATH << File.expand_path(File.dirname(__FILE__)+"/../ed25519/lib")
     $LOAD_PATH << File.expand_path(File.dirname(__FILE__)+"/../net-ssh/lib")
     $LOAD_PATH << File.expand_path(File.dirname(__FILE__)+"/../rb-fsevent/lib")
     $LOAD_PATH << File.expand_path(File.dirname(__FILE__)+"/../fsevents_to_vm/lib")
