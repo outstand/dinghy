@@ -13,3 +13,6 @@
 [submodule "cli/fsevents_to_vm"]
 	path = cli/fsevents_to_vm
 	url = https://github.com/codekitchen/fsevents_to_vm.git
+[submodule "cli/ed25519"]
+	path = cli/ed25519
+	url = https://github.com/crypto-rb/ed25519.git
